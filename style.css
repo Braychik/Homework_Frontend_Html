@@ -1,20 +1,144 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(./fonts/Gilroy-Regular.woff2);
+}
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
-.header{
-    margin-bottom: 96px;
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }
-.top_content{
-    padding-bottom: 162px;
+.card{
+    background: #FFF;
+    padding-left: 30px;
 }
-.title{
+.card img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+    padding-top: 40px;
+}
+.card h1{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     margin-bottom: 17px;
 }
-.text_info{
-    margin-bottom: 37px;
+.card p{
+    color: #666;    
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 310px;
+    height: 42px;
+    margin-bottom: 25px;
 }
-.top_logo{
-    padding-top: 96px;
-    padding-bottom: 96px;
+.card h3{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    padding-bottom: 25px;
+}
+.firstCardList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.shadow2{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.titleSecCard{
+    width: 682px;
+}
+.titleSecCard h1{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.titleSecCard p{
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 50px;
+}
+.second_card_list{
+    background: #FAFAFA;
+    padding-top: 92px;
+    margin-bottom: 100px;
+}
+.secondCardList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.secCard img{
+    width: 355px;
+    height: 289px;
+}
+.secCard h1{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.secCard p{
+    width: 310px;
+    height: 63px;
+    color: #AAA;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-bottom: 39px;
+    margin-left: 30px;
+}
+.secCard button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-family: Gilroy-Bold;
+    line-height: 150%;
+}
+.secCard{
+    width: 370px;
+    height: 549px;
+    background: #FFF;
+    align-items: center;
+    text-align: center;
 }
